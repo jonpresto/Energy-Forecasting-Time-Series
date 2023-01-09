@@ -15,4 +15,6 @@ HourlyDryBulbTemperature at a weather station near the area of interest.
 
 We are assuming that temperature and energy data are probably related. The hotter or colder it is outside, the more energy could be consumed by residential and commercial buildings to manage indoor temperature. By combining and cleaning the datasets, we will attempt to explore relationships and eventually build a model to predict future consumption.
 
+A time series model was developed to forecast demand for energy utility using ordinary least squares (OLS) method , then added time series components by adding dynamic effects of autoregressive integrated moving average (ARIMA) models and exponential smoothing (ESM) that further improved the accuracy from 94% (OLS) to 97% (OLS + dynamic effects).
+
 <a href="https://github.com/jonpresto/Energy-Forecasting-Time-Series/blob/main/Notebook%20for%20energy%20forecast.ipynb">CLICK HERE</a> to display final notebook.
